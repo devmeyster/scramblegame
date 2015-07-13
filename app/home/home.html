@@ -1,0 +1,43 @@
+<div id="container">
+  <div id="title">
+    <ul>
+      <li>S</li>
+      <li>C</li>
+      <li>R</li>
+      <li>A</li>
+      <li>M</li>
+      <li>B</li>
+      <li>L</li>
+      <li>E</li> 
+    </ul>
+  </div>
+  <div id="word" >
+    <span id="ordered">
+      <span class="letter" ng-repeat="letter in input.guess track by $index" ng-class="{ error: error }">
+      {{letter}}
+      </span>
+    </span>
+    <span id="unordered">
+      <span id="spinner" class="letter" ng-repeat="character in input.scrambledWord track by $index">
+      {{character}}
+      </span>
+    </span>
+  </div>
+  <div id="stats">
+    <div id="score">
+      <div class="box">
+        <div>Score</div>
+        <div>{{score}} points</div>
+      </div>
+    </div>
+    <div id="time">
+      <div class="box">
+        <div>Time</div>
+        <div>{{timeLeft/100 | number:0}} seconds</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
