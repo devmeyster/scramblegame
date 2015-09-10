@@ -36,4 +36,4 @@ Locally:
 ```
 4. Visit localhost:8000
 
-* To test the game, open the console and you can see the unscrambled word
+*To test the game, open the console and you can see the unscrambled word*
