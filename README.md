@@ -13,9 +13,6 @@ Objective
 
 • Supports anagrams (if the "correct" word is "evil" then it should also accept "live" as correct)
 
-Notes
------
-
 Instructions
 =============
 
